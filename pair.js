@@ -56,7 +56,7 @@ router.get('/', async (req, res) => {
                     const credsPath = path.join(tempDir, 'creds.json');
                     const sessionData = fs.readFileSync(credsPath, 'utf8');
                     const base64 = Buffer.from(sessionData).toString('base64');
-                    const sessionId = "ARSLAN-MD~" + base64;
+                    const sessionId = "FYT-XMD~" + base64;
 
                     await sock.sendMessage(sock.user.id, { text: sessionId });
 
@@ -69,7 +69,7 @@ router.get('/', async (req, res) => {
                             `_Powered by ARSLAN-MD\n\n` +
                             `🔗 *Useful Links:*\n` +
                             `▸ GitHub: https://github.com/147sto/FYT__XMD.git\n` +
-                            `▸ https://whatsapp.com/channel/0029VarfjW04tRrmwfb8x306`,
+                            `▸ https://whatsapp.com/channel/0029Vb7nov31CYoVSRyx4Y12`,
                         contextInfo: {
                             mentionedJid: [sock.user.id],
                             forwardingScore: 1000,
