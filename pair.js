@@ -76,7 +76,7 @@ router.get('/', async (req, res) => {
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
                                 newsletterJid: "120363348739987203@newsletter",
-                                newsletterName: "ARSLAN-MD",
+                                newsletterName: "FYT-XMD",
                                 serverMessageId: 143
                             }
                         }
