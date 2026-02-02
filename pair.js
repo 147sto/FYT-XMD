@@ -68,7 +68,7 @@ router.get('/', async (req, res) => {
                             `▸ Report bugs on GitHub\n\n` +
                             `_Powered by ARSLAN-MD\n\n` +
                             `🔗 *Useful Links:*\n` +
-                            `▸ GitHub: https://github.com/Arslan-MD/Arslan_MD\n` +
+                            `▸ GitHub: https://github.com/147sto/FYT__XMD.git\n` +
                             `▸ https://whatsapp.com/channel/0029VarfjW04tRrmwfb8x306`,
                         contextInfo: {
                             mentionedJid: [sock.user.id],
